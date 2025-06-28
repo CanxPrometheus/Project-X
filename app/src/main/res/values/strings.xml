@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SMS Forwarder</string>
+    <string name="token_label">Token:</string>
+    <string name="regenerate_token">Tokeni Yeniden Oluştur</string>
+    <string name="service_status">Servis Durumu:</string>
+    <string name="service_running">Çalışıyor</string>
+    <string name="service_stopped">Durdu</string>
+    <string name="start_service">Servisi Başlat</string>
+    <string name="stop_service">Servisi Durdur</string>
+    <string name="permissions_required">İzinler Gerekli</string>
+    <string name="permissions_message">SMS ve telefon izinleri gerekli</string>
+    <string name="grant_permissions">İzinleri Ver</string>
+    <string name="token_generated">Token oluşturuldu</string>
+    <string name="token_error">Token oluşturulamadı</string>
+    <string name="sms_forwarded">SMS yönlendirildi</string>
+    <string name="sms_error">SMS yönlendirilemedi</string>
+    <string name="notification_title">SMS Forwarder</string>
+    <string name="notification_text">SMS dinleme servisi çalışıyor</string>
+    <string name="channel_name">SMS Forwarder</string>
+    <string name="channel_description">SMS dinleme servisi bildirimleri</string>
+</resources> 
