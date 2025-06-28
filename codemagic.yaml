@@ -1,0 +1,19 @@
+workflows:
+  android-build:
+    name: Android APK Build
+    max_build_duration: 30
+    environment:
+      vars:
+        JAVA_VERSION: 17
+      android:
+        sdk: 34
+    scripts:
+      - echo "✅ Gradle indiriliyor..."
+      - ./gradlew clean
+      - ./gradlew assembleDebug
+    artifacts:
+      - build/**/outputs/**/*.apk
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com
